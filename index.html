@@ -1,47 +1,27 @@
 <!DOCTYPE html>
 <html>
     <title>Kayla Haas | UX/UI Portfolio</title>
-    <head>
-        <style>
-            .nav {
-              background-color: rgb(253, 196, 231); 
-              list-style-type: none;
-              text-align: center;
-              margin: 0;
-              padding: 0;
-            }
-            
-            .nav li {
-              display: inline-block;
-              font-size: 20px;
-              padding: 20px;
-            }
-            </style>
-        
+    <head>      
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="my logo">
-            <div>
-                <ul class="nav">
-                    <p>Kayla Haas</p>
-                    <ul class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="my logo"></div>
+            <div class="nav">
+                    <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                </ul>
-            <div class="heroImg">
-                    <div class="content">
-                    <h1>UX/UI Design</h1>
-                    <p>Hello, I'm Kayla Haas. Thanks for stopping by!</p>
-                    <div>
-                        <button><a href="#portfolio">Download Resume</a></button>
-                        <button><a href="#contact">Say Hello!</a></button></div>
-                    </div>
-                    </div>
+                    </ul>
                 </div>
-            </div>
+            <div class="heroImg">
+                    <h1>UX/UI Design</h1>
+                    <h3>Hello, I'm Kayla Haas. Thanks for stopping by!</h3>
+                    <br>
+                        <button><a href="#portfolio">Download Resume</a></button>
+                        <button><a href="#contact">Say Hello!</a></button>
+                </div>
             <div class="clear-fix"></div>
         </header>
         <br>
@@ -64,66 +44,48 @@
             </div>
         </section>
         <section class="skills">
-            <div class="container">
                 <h2>My Skills</h2>
                 <div class="skills-list">
-                    <div class="skills-item">
-                        <img src="images/web.png" alt="">
-                        <h3>User Experience Design</h3>
-                    </div>
-                    <div class="skills-item">
-                        <img src="images/brand.png" alt="">
-                        <h3>User Research</h3>
-                    </div>
-                    <div class="skills-item">
-                        <img src="images/ux.png" alt="">
-                        <h3>Behavioral Observation</h3>
-                    </div>
-                    <div class="skills-item">
-                        <img src="images/code.png" alt="">
-                        <h3>HTML & CSS</h3>
-                    </div>
-                    <div class="skills-item">
-                        <img src="images/figma.png" alt="">
-                        <h3>Figma</h3>
-                    </div>
-                    <div class="skills-item">
-                        <img src="images/sketch.png" alt="">
-                        <h3>CodePen</h3>
-                    </div>
+                    <ul>
+                        <li>User experience design</li>
+                        <li>User research</li>
+                        <li>Behavior observation</li>
+                        <li>HTML, CSS, Javascript, Bootstrap</li>
+                        <li>Figma, Miro, CodePen</li>
+                    </ul>
                 </div>
-            </div>
         </section>
         <section class="portfolio" id="portfolio">
-            <div class="container">
                 <h2>My Portfolio</h2>
                 <div class="portfolio-list">
                     <div class="portfolio-item">
-                        <img src="images/project-thumbnail-1.png" alt="">
+                        <img src="images/spacedoutThumbnail.png" alt="Spaced Out" height="350px" width="350px">
                         <h3>Spaced Out</h3>
                         <p>Mobile app description here</p>
                         <a href="">View case study</a>
                     </div>
+                    <br>
                     <div class="portfolio-item">
-                        <img src="images/project-thumbnail-1.png" alt="">
+                        <img src="images/deptofedThumbnail.png" alt="Department of Education" height="350px" width="350px">
                         <h3>Department of Ed</h3>
                         <p>Website redesign description here</p>
                         <a href="">View case study</a>
                     </div>
+                    <br>
                     <div class="portfolio-item">
-                        <img src="images/project-thumbnail-1.png" alt="">
+                        <img src="images/wonderbloomThumbnail.png" alt="Wonderbloom" height="350px" width="350px">
                         <h3>Wonderbloom</h3>
                         <p>Nonprofit redesign stuff here</p>
                         <a href="">View case study</a>
                     </div>
                 </div>
-            </div>
         </section>
         <section class="contact" id="contact">
             <div class="container">
                 <h2>Happy to hear from you!</h2>
                 <p>If you have a question, work inquiry or just want to connect then feel free to send me a message.</p>
-                <button>Let’s Connect!</button>
+                <br>
+                <button>Contact</button>
             </div>
         </section>
         <footer>
@@ -132,7 +94,6 @@
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        <footer>
             <div class="container">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/kayla-h-7b6ba91a8">LinkedIn</a></li>
